@@ -1,0 +1,51 @@
+/* About Styles */
+.aboutus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px auto;
+}
+.about .left p {
+  margin: 10px auto;
+}
+.about .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  padding: 10px;
+}
+.about .right .fa {
+  margin-right: 10px;
+  font-size: 28px;
+  color: rgba(204, 204, 204, 0.575);
+}
+.about .right span {
+  display: inline-block;
+  padding: 0px 5px;
+  background: rgba(87, 87, 87, 0.904);
+  color: #ccc;
+  margin: 5px;
+  border-radius: 10px;
+}
+.about .right h3 {
+  text-decoration: underline;
+}
+.about .right p {
+  padding: 10px;
+  margin-top: 10px;
+  color: var(--gold-color);
+  font-weight: bolder;
+}
+
+@media (max-width: 800px) {
+  .aboutus {
+    grid-template-columns: 1fr;
+  }
+  .aboutus .right {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    padding: 0;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,43 @@
+/* Talks Styles */
+.talks {
+  margin-top: 30px;
+}
+.tk {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin: 100px auto;
+  grid-gap: 20px;
+}
+.tk .details {
+  width: 80%;
+}
+.tk .details,
+.tk .img {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tk .links {
+  display: flex;
+  justify-content: space-between;
+}
+.tk .tkimg {
+  border: 8px solid var(--gold-color) !important;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+.talk .big {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+@media (max-width: 800px) {
+  .tk {
+    grid-template-columns: 1fr;
+  }
+  .tk .details {
+    width: 100%;
+  }
+}

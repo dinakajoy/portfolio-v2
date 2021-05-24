@@ -1,0 +1,92 @@
+/* Contact Styles */
+.contact {
+  text-align: left;
+  width: 100%;
+  margin: 50px auto;
+}
+.cont {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background: #ccc;
+  color: var(--dark-color);
+}
+.contact input[type="submit"] {
+  background-color: var(--gold-color);
+  color: var(--dark-color);
+  cursor: pointer;
+  font-weight: bolder;
+}
+.contact input[type="submit"]:hover {
+  background-color: rgba(255, 208, 0, 0.644);
+  cursor: pointer;
+}
+.contact input[type="submit"]:disabled {
+  background-color: #dddddd;
+  cursor: not-allowed;
+}
+.contact #response {
+  display:none;
+  text-align:center;
+  font-weight: bolder;
+}
+.cont .map {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.cont .map p {
+  margin: 0;
+}
+.cont .map span {
+  font-weight: bolder;
+  margin-right: 20px;
+}
+.cont span {
+  color: var(--gold-color);
+}
+.cont .pc,
+.cont .map i {
+  margin: 10px auto;
+  text-align: left;
+}
+.cont i {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 10px !important;
+}
+.output {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 770px) {
+  .cont {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .cont .map {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    width: 90%;
+  }
+  .contact input,
+  .contact textarea {
+    width: 100%;
+  }
+}

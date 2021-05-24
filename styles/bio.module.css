@@ -1,0 +1,30 @@
+/* Bio Styles */
+.mybio {
+  margin: 50px auto;
+}
+.bio h2,
+.bio h3,
+.bio span {
+  color: var(--gold-color);
+}
+.bioimages {
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.bio-images img {
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .bioimages {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 384px) {
+  .bioimages {
+    grid-template-columns: 1fr;
+  }
+}
