@@ -1,7 +1,41 @@
+import {useState} from 'react';
 import Image from 'next/image';
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
 import styles from '@/styles/contact.module.css';
 
 const Contact = () => {
+  const [res, setRes] = useState(null);
+  // form validation rules
+  const validationSchema = yup.object().shape({
+    uname: yup.string().required("Name is required please"),
+    email: yup.string().email("Email is invalid").required("Email is required please"),
+    subject: yup.string().required("Subject is required please"),
+    message: yup.string().required("You definitely want to drop me a message"),
+  });
+  const formOptions = { resolver: yupResolver(validationSchema) };
+
+  // get functions to build form with useForm() hook
+  const { register, handleSubmit, reset, formState } = useForm(formOptions);
+  const { errors } = formState;
+
+  const submitForm = (data) => {
+    fetch('/api/contact-form', {method: 'POST', headers: {'Content-Type': 'application/json'},  credentials: 'same-origin', body: JSON.stringify(data)})
+    .then(response => response.json())
+    .then(data => {
+        if(data.message) {
+          setRes('Submitted');
+          reset('');
+        } else {
+          setRes('Error, please reload');
+        }
+    })
+    .catch(error => {
+      setRes('Error, please reload');
+    })
+  };
+
   return (
     <section className={styles.contact}>
       <div className="container">
@@ -9,15 +43,22 @@ const Contact = () => {
         <br />
         <div className={styles.output}></div>
         <div className={styles.cont}>
-          <form action="" method="POST" enctype="multipart/form-data">
+          <form onSubmit={handleSubmit(submitForm)}>
             <p className={styles.p}>Do you have an interesting project that matches my skill set <span>or</span> want to get extra information on any of my work <span>or</span> just to say hello? </p>
             <p className={styles.p}><i>I’m always open to discussing new and exciting opportunities.</i></p><br />
-            <input type="text" name="uname" id="uname" placeholder="Your Name Please..." required />
-            <input type="email" name="email" id="email" placeholder="Your Email Please..." required />
-            <input type="text" name="subject" id="subject" placeholder="Your Reason Please..." required />
-            <textarea name="body" id="body" cols="30" rows="10" placeholder="Your Message Please..." required></textarea>
+            <input type="text" name="uname" id="uname" placeholder="Your Name Please..." {...register('uname')} />
+            <p className={styles.err}> {errors.uname?.message} </p>
+            <input type="text" name="email" id="email" placeholder="Your Email Please..." {...register('email')} />
+            <p className={styles.err}> {errors.email?.message} </p>
+            <input type="text" name="subject" id="subject" placeholder="Your Reason Please..." {...register('subject')} />
+            <p className={styles.err}> {errors.subject?.message} </p>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message Please..." {...register('message')}></textarea>
+            <p className={styles.err}> {errors.message?.message} </p>
             <div id="response"></div>
-            <input type="submit" id="submit" value="SEND" />
+            {!res && <button type="submit" disabled={formState.isSubmitting} className="btn-sbmt">
+              {formState.isSubmitting ? 'Submitting...' : 'Send'}
+            </button>}
+            {res && <button type="submit" disabled="true" className="btn-sbmt"> Submitted </button>}
           </form>
 
           <div className={styles.map}>

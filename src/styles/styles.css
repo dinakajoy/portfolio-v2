@@ -70,6 +70,10 @@ main {
 .header a {
   color: var(--light-color);
 }
+.header a.active {
+  color: rgba(255, 208, 0, 0.411) !important;
+  cursor: default;
+}
 .header a:hover {
   color: var(--gold-color);
 }

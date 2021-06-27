@@ -17,8 +17,8 @@ const About = () => {
 
           <p>
             Aside coding, I also have basic knowledge of Project Management
-            (Agile, Waterfall), DevOps (Github Actions, Docker, Terraform, Ansible), Cloud
-            Services(AWS) and End to End Testing (Cypress). This is to
+            (Agile, Waterfall), DevOps (Docker, Terraform, Ansible), Cloud
+            Services(AWS) and End-to-End Testing (Cypress). This is to
             enable me understand the processes involved in building out a product from just an idea to a usable application.{' '}
           </p>
 
@@ -35,10 +35,12 @@ const About = () => {
             <span>HTML5</span>
             <span>CSS3</span>
             <span>SCSS</span>
-            <span>JavaScript (ES6+)</span>
+            <span>JavaScript</span>
             <span>TypeScript</span>
             <span>ReactJS</span>
             <span>NextJS</span>
+            <span>Material-UI</span>
+            <span>TailwindCSS</span>
             <span>Jest</span>
             <span>React Testing Library</span>
 

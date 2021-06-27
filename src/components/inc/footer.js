@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer-wrapper">
           <p>Designed &amp; Developed By Odinaka Joy © <time> &nbsp;{ YEAR }</time></p>
           <div className="socials">
-            <a href="/feed.xml" target="_blank"><i className="fa fa-rss"></i></a>
+            {/* <a href="/feed.xml" target="_blank"><i className="fa fa-rss"></i></a> */}
             <a href="https://github.com/dinakajoy" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
             <a href="https://www.linkedin.com/in/dinakajoy/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
             <a href="https://twitter.com/dinakajoy" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>

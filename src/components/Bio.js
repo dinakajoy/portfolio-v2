@@ -28,7 +28,7 @@ const Bio = () => {
           <h3>Long Bio</h3>
           <p>Odinaka Joy is a Software engineer with specialization in full-stack web development.</p>
           <p>She loves to speak and write about tech and the web, hence she spends time uploading quality content to her <Link href="/blog"><a>blog</a></Link></p>
-          <p>Odinaka Joy is extremely passionate about education and technology. She drives the inclusion of kids and women in tech. She loves to mentor beginners in web development and guide people through their journey in tech. She believes in passion because that keeps one motivated despite all odds. One advice she always gives is <strong>You can do this, just keep pushing</strong>. Her favourite quote is <blockquote>A journey of a thousand miles begins with a step</blockquote></p>
+          <p>Odinaka Joy is extremely passionate about education and technology. She drives the inclusion of kids and women in tech. She loves to mentor beginners in web development and guide people through their journey in tech. She believes in passion because that keeps one motivated despite all odds. One advice she always gives is <strong>"You can do whatever you set your mind on, just keep pushing"</strong>. {' '}Her favourite quote is - <strong>"A journey of a thousand miles begins with a step"</strong></p>
         </div>
         <div className={styles.bioimages}>
           <a href="/images/gallery/dinakajoy.png" download="Odinaka Joy" alt="Odinaka Joy" title="Click to download"><Image src="/images/gallery/dinakajoy.png" width={300} height={400} /></a>

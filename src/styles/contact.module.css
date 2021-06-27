@@ -9,6 +9,7 @@
   grid-template-columns: 60% 40%;
 }
 .contact input,
+.contact button,
 .contact textarea {
   width: 100%;
   margin: 10px auto;
@@ -18,18 +19,18 @@
   background: #ccc;
   color: var(--dark-color);
 }
-.contact input[type="submit"] {
+.contact button {
   background-color: var(--gold-color);
   color: var(--dark-color);
   cursor: pointer;
   font-weight: bolder;
 }
-.contact input[type="submit"]:hover {
+.contact button:hover {
   background-color: rgba(255, 208, 0, 0.644);
   cursor: pointer;
 }
-.contact input[type="submit"]:disabled {
-  background-color: #dddddd;
+.contact button:disabled {
+  background-color: #adadad;
   cursor: not-allowed;
 }
 .contact #response {
@@ -67,6 +68,10 @@
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
+}
+.err {
+  color: rgb(247, 121, 121);
+  padding: 5px;
 }
 
 @media (max-width: 770px) {

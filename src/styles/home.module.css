@@ -58,7 +58,14 @@
   align-items: center;
 }
 .showcase__img img {
-  width: 80%;
+  width: 90%;
+}
+.showcase__img div {
+  width: 100%;
+  display: none;
+}
+.showcase__img .showcase_slider {
+  display: inline-block;
 }
 
 @media (max-width: 699px) {
