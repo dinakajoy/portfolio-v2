@@ -17,7 +17,7 @@ Give credit to me
 * NextJS - To serve the web pages
 
 ## Link
-Access app via https://dinakajoy.com
+Access app via https://www.dinakajoy.com/
 
 ## Author
-[Odinaka Joy](https://dinakajoy.com)
+[Odinaka Joy](https://www.dinakajoy.com/)
