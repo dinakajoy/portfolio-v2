@@ -11,15 +11,15 @@ const About = () => {
             for creating elegant and quality solutions in the possible least
             amount of time. I mentor beginners in web development and speak on
             web related topics and technologies. I specialize in
-            full-stack web development using JavaScript. I can plan Software Architecture and design it,
-            choosing the best Software Architectural Pattern(s).
+            full-stack web development using JavaScript. I can plan and design a good Software Architecture,
+            choosing the best Pattern(s).
           </p>
 
           <p>
             Aside coding, I also have basic knowledge of Project Management
             (Agile, Waterfall), DevOps (Docker, Terraform, Ansible), Cloud
             Services(AWS) and End-to-End Testing (Cypress). This is to
-            enable me understand the processes involved in building out a product from just an idea to a usable application.{' '}
+            enable me understand the processes involved in building a product from just an idea to a usable application.{' '}
           </p>
 
           <p>
