@@ -20,7 +20,7 @@
     "nodemailer-smtp-transport": "^2.7.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-hook-form": "^7.9.0",
+    "react-hook-form": "^7.22.0",
     "remark": "^11.0.2",
     "remark-html": "^10.0.0",
     "rss": "^1.2.2",

@@ -1,12 +1,13 @@
 import {useState} from 'react';
 import Image from 'next/image';
-import { useForm } from "react-hook-form";
+import { useForm } from 'react-hook-form'
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import styles from '@/styles/contact.module.css';
 
 const Contact = () => {
   const [res, setRes] = useState(null);
+  
   // form validation rules
   const validationSchema = yup.object().shape({
     uname: yup.string().required("Name is required please"),
