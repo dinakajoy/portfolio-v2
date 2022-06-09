@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import { useForm } from 'react-hook-form'
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -7,6 +7,7 @@ import styles from '@/styles/contact.module.css';
 
 const Contact = () => {
   const [res, setRes] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
   
   // form validation rules
   const validationSchema = yup.object().shape({
@@ -21,18 +22,26 @@ const Contact = () => {
   const { register, handleSubmit, reset, formState } = useForm(formOptions);
   const { errors } = formState;
 
+  const resetForm = () => { 
+    document.getElementById("contact-form").reset();
+  }
+
   const submitForm = (data) => {
+    setIsLoading(true);
     fetch('/api/contact-form', {method: 'POST', headers: {'Content-Type': 'application/json'},  credentials: 'same-origin', body: JSON.stringify(data)})
     .then(response => response.json())
     .then(data => {
         if(data.message) {
+          setIsLoading(false);
           setRes('Submitted');
-          reset('');
+          resetForm();
         } else {
+          setIsLoading(false);
           setRes('Error, please reload');
         }
     })
     .catch(error => {
+      setIsLoading(false);
       setRes('Error, please reload');
     })
   };
@@ -44,7 +53,7 @@ const Contact = () => {
         <br />
         <div className={styles.output}></div>
         <div className={styles.cont}>
-          <form onSubmit={handleSubmit(submitForm)}>
+          <form onSubmit={handleSubmit(submitForm)} id="contact-form">
             <p className={styles.p}>Do you have an interesting project that matches my skill set <span>or</span> want to get extra information on any of my work <span>or</span> just to say hello? </p>
             <p className={styles.p}><i>I’m always open to discussing new and exciting opportunities.</i></p><br />
             <input type="text" name="uname" id="uname" placeholder="Your Name Please..." {...register('uname')} />
@@ -56,8 +65,8 @@ const Contact = () => {
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message Please..." {...register('message')}></textarea>
             <p className={styles.err}> {errors.message?.message} </p>
             <div id="response"></div>
-            {!res && <button type="submit" disabled={formState.isSubmitting} className="btn-sbmt">
-              {formState.isSubmitting ? 'Submitting...' : 'Send'}
+            {!res && <button type="submit" disabled={isLoading} className="btn-sbmt">
+              {isLoading ? 'Submitting...' : 'Send'}
             </button>}
             {res && <button type="submit" disabled="true" className="btn-sbmt"> Submitted </button>}
           </form>

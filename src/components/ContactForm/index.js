@@ -3,20 +3,19 @@ const smtp = require('nodemailer-smtp-transport')
 require('dotenv').config()
 
 exports.contactMail = (formData, cb) => {
-  console.log(process.env.USER)
   const transporter = nodemailer.createTransport({
-    port: 465, // true for 465, false for other ports
-    host: 'smtp.gmail.com',
+    port: 26,
+    host: 'server254.web-hosting.com',
     auth: {
-      user: process.env.USER,
-      pass: process.env.PASSWORD
+      user: process.env.NEXT_PUBLIC_USER,
+      pass: process.env.NEXT_PUBLIC_PASSWORD
     },
-    secure: true
+    secure: false
   })
 
   const mailOptions = {
-    from: process.env.USER,
-    to: process.env.RECIEVER,
+    from: process.env.NEXT_PUBLIC_USER,
+    to: process.env.NEXT_PUBLIC_RECIEVER,
     subject: 'New Contact Form data',
     html: `
       <h2>Treat As Urgent</h2>
