@@ -10,6 +10,29 @@ const Talks = () => {
           <p className={styles.big}>I am open to speak on topics related to web and technology in general and also building career in tech. As someone who has been through ups and downs in my tech journey, I can demystify these topics very well. Need pictures or my bio for a feature or speaker graphics? <Link href="/bio"><a>click here</a></Link>
           </p>
           <div className={styles.tk}>
+            <div className={styles.img}><Image src="/images/talks/ph.jpg" alt="Introduction To Web Development" width={350} height={350} className={styles.tkimg} /></div>
+            <div className={styles.details}>
+              <h3>Advancing Your Business &amp; Career Using ICT</h3>
+              <p>In this event, I spoke on how to leverage social media platforms such as tiktok, twitter, facebook, whatsapp, etc to reach out to and engage with more customers. Also, on how students can build their skills by learning from free platforms such as Youtube.</p>
+              <br />
+              <div className={styles.links}>
+                <span><a href="https://docs.google.com/presentation/d/1NCQOUzZJAWoWFY_v80QxAun1lJuTww2VxznbdagtWkw/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-link"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.tk}>
+            <div className={styles.img}><Image src="/images/talks/ph.jpg" alt="Introduction To Web Development" width={350} height={350} className={styles.tkimg} /></div>
+            <div className={styles.details}>
+              <h3>Boosting Your Business Using Social Media &amp; ICT In Nigeria</h3>
+              <p>In this event, I spoke on how to leverage social media platforms such as tiktok, twitter, facebook, whatsapp, etc to reach out to and engage with more customers.</p>
+              <br />
+              <div className={styles.links}>
+                <span><a href="https://docs.google.com/presentation/d/1NCQOUzZJAWoWFY_v80QxAun1lJuTww2VxznbdagtWkw/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-link"></i></a></span>
+                <span><a href="https://drive.google.com/file/d/1fAp7GUnvxHc04lfg3atnyKd4k8sW5ByQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-link"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.tk}>
             <div className={styles.img}><Image src="/images/talks/sca_ph.jpg" alt="Introduction To Web Development" width={350} height={350} className={styles.tkimg} /></div>
             <div className={styles.details}>
               <h3>Introduction To Web Development</h3>

@@ -11,8 +11,7 @@ const About = () => {
             creating elegant and quality solutions in the possible least amount
             of time. I mentor beginners in web development and speak on web
             related topics and technologies. I specialize in full-stack web
-            development using JavaScript. I can plan and design a good Software
-            Architecture, choosing the best Pattern(s).
+            development using JavaScript and OCaml.
           </p>
 
           <p>
@@ -27,7 +26,7 @@ const About = () => {
             I strive to follow best practices and use industry-standard tools,
             including Git-Flow, Test Driven Development, Continous Integration
             (Github Action), Linting (ESLint), Code Formatting (Prettier),
-            Package Management (NPM) and Build Tool (Webpack).
+            Package Management (NPM) and Build Tool (Webpack) and Pre-Commit Tools (Lint-Staged, Husky, Commitizen).
           </p>
         </div>
         <div className={styles.right}>
@@ -36,8 +35,8 @@ const About = () => {
               <i className="fa fa-wrench"></i> Skills
             </h3>
             <p>Front-End</p>
-            <span>HTML5</span>
-            <span>CSS3</span>
+            <span>HTML</span>
+            <span>CSS</span>
             <span>SCSS</span>
             <span>JavaScript</span>
             <span>TypeScript</span>
@@ -65,8 +64,6 @@ const About = () => {
             <span>MongoDB</span>
 
             <p>Others</p>
-            <span>Wordpress - custom theme</span>
-            <span>Wordpress - Headless CMS</span>
             <span>StrapiCMS</span>
             <span>Redis</span>
             <span>RabbitMQ</span>
