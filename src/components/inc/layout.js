@@ -13,8 +13,6 @@ const Layout = ({ children }) => {
       {pathname === '/about' && <Meta title="About Me | Odinaka Joy" />}
       {pathname === '/projects' && <Meta title="Projects | Odinaka Joy" />}
       {pathname === '/talks' && <Meta title="Talks | Odinaka Joy" />}
-      {pathname === '/blog' && <Meta title="Blog | Odinaka Joy" />}
-      {pathname.includes('/blog/') && <Meta />}
       {pathname === '/contact' && <Meta title="Contact Me | Odinaka Joy" />}
       {pathname === '/bio' && <Meta title="Bio | Odinaka Joy" />}
       <Snowflakes />

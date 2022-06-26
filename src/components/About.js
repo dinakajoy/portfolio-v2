@@ -7,26 +7,13 @@ const About = () => {
         <div className={styles.left}>
           <h2>ABOUT ME</h2>
           <p>
-            I am Odinaka Joy. A smart-working Software Engineer with a flair for
-            creating elegant and quality solutions in the possible least amount
-            of time. I mentor beginners in web development and speak on web
-            related topics and technologies. I specialize in full-stack web
-            development using JavaScript and OCaml.
+            I am Odinaka Joy, a Software Engineer based in Port Harcourt, Nigeria. I love to build websites and infrastructures. I mentor and train beginners in web development. I also speak about tech, open source, software engineering and web development. I am passionate about tech, the developer community, open source and I drive the inclusion for more women and kids in tech.
           </p>
-
           <p>
-            Aside coding, I also have basic knowledge of Project Management
-            (Agile, Waterfall), DevOps (Github Action, Docker, Terraform), Cloud
-            Services(AWS) and End-to-End Testing (Cypress). This is to enable me
-            understand the processes involved in building a product from just an
-            idea to a usable application.
+            I currently work as an Intern Software Engineer at Tarides, working on a project that ports a primarily Unix-based application (Irmin-server) to work in the browser and design interfaces for people to interact with the store (Irmin-stores).
           </p>
-
           <p>
-            I strive to follow best practices and use industry-standard tools,
-            including Git-Flow, Test Driven Development, Continous Integration
-            (Github Action), Linting (ESLint), Code Formatting (Prettier),
-            Package Management (NPM) and Build Tool (Webpack) and Pre-Commit Tools (Lint-Staged, Husky, Commitizen).
+            I have a <a href="https://www.dinakablog.com/" target="_BLANK">blog</a> and <a href="https://www.youtube.com/channel/UCJYAfustyfdE7YyEHRC0rWw" target="_BLANK">YouTube channel</a>, where I post content on Software Engineering, Career Growth and Life as a Software Engineer. 
           </p>
         </div>
         <div className={styles.right}>
@@ -35,40 +22,17 @@ const About = () => {
               <i className="fa fa-wrench"></i> Skills
             </h3>
             <p>Front-End</p>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>SCSS</span>
             <span>JavaScript</span>
             <span>TypeScript</span>
             <span>ReactJS</span>
-            <span>GatsbyJS</span>
             <span>NextJS</span>
-            <span>ContextAPI</span>
-            <span>Redux</span>
-            <span>Material-UI</span>
+            <span>ReScript</span>
             <span>TailwindCSS</span>
-            <span>Jest</span>
-            <span>React Testing Library</span>
 
             <p>Back-End</p>
             <span>TypeScript</span>
-            <span>NodeJS</span>
             <span>ExpressJS</span>
-            <span>Jest</span>
-            <span>Supertest</span>
             <span>OCaml</span>
-
-            <p>Databases</p>
-            <span>MySQL</span>
-            <span>PostgresSQL</span>
-            <span>MongoDB</span>
-
-            <p>Others</p>
-            <span>StrapiCMS</span>
-            <span>Redis</span>
-            <span>RabbitMQ</span>
-            <span>Elastic Search</span>
-            <span>AWS</span>
           </div>
         </div>
       </div>

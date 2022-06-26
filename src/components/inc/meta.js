@@ -57,8 +57,8 @@ export default Meta;
 Meta.defaultProps = {
   title: 'Welcome | Odinaka Joy',
   description:
-    'Odinaka Joy is a Software Engineer, Speaker and Mentor with hands-on experience in front-end (HTML, CSS, JavaScript, TypeScript, React, Next) and back-end (Node/Express) web development. She is a genaralist and that makes her spend time to understand underlying concepts.',
+    'Odinaka Joy is a Software Engineer based in Port Harcourt, Nigeria. She loves to build websites and infrastructures. She mentor and train beginners in web development. She also loves speak and write about tech, open source, software engineering and the web',
   image:
     'https://res.cloudinary.com/dbniq3vnh/image/upload/v1614522391/accomplice/odinaka-joy.jpg',
-  url: 'http://dinakajoy.com'
+  url: 'https://dinakajoy.com'
 }

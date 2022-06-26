@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout';
+import Layout from '@/components/inc/layout';
 import About from '@/components/About';
 
 const AboutPage = () => {
