@@ -10,7 +10,7 @@ const Talks = () => {
           <p className={styles.big}>I am open to speak on topics related to web and technology in general and also building career in tech. As someone who has been through ups and downs in my tech journey, I can demystify these topics very well. Need pictures or my bio for a feature or speaker graphics? <Link href="/bio"><a>click here</a></Link>
           </p>
           <div className={styles.tk}>
-            <div className={styles.img}><Image src="/images/talks/ph.jpg" alt="Introduction To Web Development" width={350} height={350} className={styles.tkimg} /></div>
+            <div className={styles.img}><Image src="/images/talks/imo_state.jpg" alt="Introduction To Web Development" width={350} height={350} className={styles.tkimg} /></div>
             <div className={styles.details}>
               <h3>Advancing Your Business &amp; Career Using ICT</h3>
               <p>In this event, I spoke on how to leverage social media platforms such as tiktok, twitter, facebook, whatsapp, etc to reach out to and engage with more customers. Also, on how students can build their skills by learning from free platforms such as Youtube.</p>
