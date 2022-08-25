@@ -22,16 +22,32 @@ const About = () => {
               <i className="fa fa-wrench"></i> Skills
             </h3>
             <p>Front-End</p>
+            <span>HTML</span>
+            <span>CSS/SCSS</span>
+            <span>JavaScript</span>
             <span>TypeScript</span>
             <span>ReactJS</span>
+            <span>GatsbyJS</span>
             <span>NextJS</span>
-            <span>ReScript</span>
+            <span>Material-UI</span>
             <span>TailwindCSS</span>
 
             <p>Back-End</p>
             <span>TypeScript</span>
+            <span>NodeJS</span>
             <span>ExpressJS</span>
             <span>OCaml</span>
+
+            <p>Data Storage</p>
+            <span>Redis</span>
+            <span>MySQL</span>
+            <span>PostgresSQL</span>
+            <span>MongoDB</span>
+
+            <p>Tools/Platforms</p>
+            <span>ReactBricks</span>
+            <span>WordPress</span>
+            <span>StrapiCMS</span>
           </div>
         </div>
       </div>
