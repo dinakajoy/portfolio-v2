@@ -86,7 +86,7 @@ const Home = () => {
             <motion.h1 initial="hidden" animate="visible" variants={variants[0]}>ODINAKA JOY</motion.h1>
             <motion.h2 initial="hidden" animate="visible" variants={variants[1]} className={styles.title2}>I build for the web</motion.h2>
             <hr className="short" />
-            <motion.p initial="hidden" animate="visible" variants={variants[2]}>I'm a Software Engineer specialized in designing and developing exceptional websites and web applications.</motion.p>
+            <motion.p initial="hidden" animate="visible" variants={variants[2]}>A computer Science graduate and Software Engineer with +4 years of professional experience, 2 years PHP experience, +2 years JavaScript experience and +1 year functional programming experience using OCaml. </motion.p>
             <motion.p initial="hidden" animate="visible" variants={variants[2]}>Need pictures or my bio for a feature or speaker graphics? <Link href="/bio"><a>Click Here</a></Link></motion.p>
             <Link href="/contact"><a className={styles.showcase__btn}>Get In Touch</a></Link>
           </div>
