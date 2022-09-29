@@ -7,10 +7,10 @@ const About = () => {
         <div className={styles.left}>
           <h2>ABOUT ME</h2>
           <p>
-            I am Odinaka Joy, a Software Engineer based in Port Harcourt, Nigeria. I love to build websites and infrastructures. I mentor beginners in web development. I also love to speak about tech, open source, software engineering and web development. I am passionate about tech, the developer community, open source and I drive the inclusion of more women and kids in tech.
+          A Computer Science graduate and Software Engineer with +4 years of professional experience, 2 years PHP experience, +2 years JavaScript experience and +1 year functional programming experience using OCaml. Able to take a project from design to product, using the best tools and architectures based on the application needs. Basic knowledge of project and people management, having led the completion of two projects (an ERP and an e-learning system) from start to finish. Passionate about coding, open source and education. Confident, curious and adaptable.
           </p>
           <p>
-            I am currently a Software Engineer at AcceleratorApp, working with the AcceleratorApp team to make the Startup industry more connected, efficient, transparent and fair . I Previously worked as an Intern Software Engineer at Tarides, where I worked on a project that ports a primarily Unix-based application (Irmin-server) to work in the browser and design interfaces for people to interact with the store (Irmin-stores).
+            Currently a Software Engineer at AcceleratorApp, working with the AcceleratorApp team to make the Startup industry more connected, efficient, transparent and fair. A platform that seamlessly connects accelerators, incubators and founders to automate, organize, track, and boost value to their startups with features like Multilingual, Scheduling tools, Smart tasks, Email tracking, Coaching and Mentorship, Drag and drop customizable forms, Automated emails, Calendar integration, Zapier integration, Learning Management System, Chat and more.
           </p>
           <p>
             I have a <a href="https://www.dinakablog.com/" target="_BLANK">blog</a> and <a href="https://www.youtube.com/channel/UCJYAfustyfdE7YyEHRC0rWw" target="_BLANK">YouTube channel</a>, where I post content on Open Source, Software Engineering, Web Development, Career Growth and Life as a Software Engineer. 
@@ -26,16 +26,15 @@ const About = () => {
             <span>CSS/SCSS</span>
             <span>JavaScript</span>
             <span>TypeScript</span>
-            <span>ReactJS</span>
-            <span>GatsbyJS</span>
-            <span>NextJS</span>
+            <span>React.js</span>
+            <span>NextJ.js</span>
             <span>Material-UI</span>
             <span>TailwindCSS</span>
 
             <p>Back-End</p>
             <span>TypeScript</span>
-            <span>NodeJS</span>
-            <span>ExpressJS</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
             <span>OCaml</span>
 
             <p>Data Storage</p>

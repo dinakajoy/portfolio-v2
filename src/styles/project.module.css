@@ -1,4 +1,8 @@
 /* Projects Styles */
+.project h3 {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
 .proj {
   display: grid;
   grid-template-columns: 1fr 1fr;

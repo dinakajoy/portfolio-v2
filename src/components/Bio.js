@@ -17,18 +17,18 @@ const Bio = () => {
 
           <br />
           <h3>Short Bio</h3>
-          <p>Odinaka Joy is a Software Engineer based in Port Harcourt, Nigeria. She loves to build websites and infrastructures.</p>
+          <p>A Software Engineer passionate about coding, open source and education</p>
 
           <br />
           <h3>Medium Bio</h3>
-          <p>Odinaka Joy is a Software Engineer based in Port Harcourt, Nigeria. She loves to build websites and infrastructures.</p>
-          <p>She mentor and train beginners in web development. She also loves speak and write about tech, open source, software engineering and the web, hence she spends time uploading quality contents to her <a href="https://www.dinakablog.com/" target="_BLANK">blog</a>.</p>
+          <p>A Software Engineer passionate about coding, open source and education</p>
+          <p>She mentors and coach beginners in web development. She also loves speak and write about tech, open source, software engineering and the web, hence she spends time uploading quality contents to her <a href="https://www.dinakablog.com/" target="_BLANK">blog</a>.</p>
 
           <br />
           <h3>Long Bio</h3>
           <p>Odinaka Joy is a Software Engineer based in Port Harcourt, Nigeria. She loves to build websites and infrastructures.</p>
-          <p>She mentor and train beginners in web development. She also loves speak and write about tech, open source, software engineering and the web, hence she spends time uploading quality contents to her <a href="https://www.dinakablog.com/" target="_BLANK">blog</a>.</p>
-          <p>Odinaka Joy is passionate about tech, the developer community, open source and she drives the inclusion for more women and kids in tech. She believes in passion because that keeps one motivated despite all odds. One advice she always gives is <strong>"You can do whatever you set your mind on, just keep pushing"</strong>. {' '}Her favourite quote is - <strong>"A journey of a thousand miles begins with a step".</strong></p>
+          <p>She mentors and coach beginners in web development. She also loves speak and write about tech, open source, software engineering and the web, hence she spends time uploading quality contents to her <a href="https://www.dinakablog.com/" target="_BLANK">blog</a>.</p>
+          <p>Odinaka Joy is passionate about coding, open source and education and she drives the inclusion for more women and kids in tech. She believes in passion because that keeps one motivated despite all odds. One advice she always gives is <strong>"You can do whatever you set your mind on, just keep pushing"</strong>. {' '}Her favourite quote is - <strong>"A journey of a thousand miles begins with a step".</strong></p>
         </div>
         <div className={styles.bioimages}>
           <a href="/images/gallery/dinakajoy.png" download="Odinaka Joy" alt="Odinaka Joy" title="Click to download"><Image src="/images/gallery/dinakajoy.png" width={300} height={400} /></a>
