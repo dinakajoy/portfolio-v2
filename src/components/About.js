@@ -7,13 +7,41 @@ const About = () => {
         <div className={styles.left}>
           <h2>ABOUT ME</h2>
           <p>
-          A Computer Science graduate and Software Engineer with +4 years of professional experience, 2 years PHP experience, +2 years JavaScript experience and +1 year functional programming experience using OCaml. Able to take a project from design to product, using the best tools and architectures based on the application needs. Basic knowledge of project and people management, having led the completion of two projects (an ERP and an e-learning system) from start to finish. Passionate about coding, open source and education. Confident, curious and adaptable.
+            A computer Science graduate and Software Engineer with +3 years of
+            professional experience, +3 years of JavaScript experience and 1
+            year of functional programming experience using OCaml. Able to take
+            a project from design to product, using the best tools and
+            architectures based on the application needs. Basic knowledge of
+            project and people management, having led the completion of two
+            projects (an ERP and an e-learning system) from start to finish.
+            Passionate about coding, open source and education. Confident,
+            curious and adaptable.
           </p>
           <p>
-            Currently a Software Engineer at AcceleratorApp, working with the AcceleratorApp team to make the Startup industry more connected, efficient, transparent and fair. A platform that seamlessly connects accelerators, incubators and founders to automate, organize, track, and boost value to their startups with features like Multilingual, Scheduling tools, Smart tasks, Email tracking, Coaching and Mentorship, Drag and drop customizable forms, Automated emails, Calendar integration, Zapier integration, Learning Management System, Chat and more.
+            Currently a Software Engineer at AcceleratorApp, working with the
+            AcceleratorApp team to make the Startup industry more connected,
+            efficient, transparent and fair. A platform that seamlessly connects
+            accelerators, incubators and founders to automate, organize, track,
+            and boost value to their startups with features like Multilingual,
+            Scheduling tools, Smart tasks, Email tracking, Coaching and
+            Mentorship, Drag and drop customizable forms, Automated emails,
+            Calendar integration, Zapier integration, Learning Management
+            System, Chat and more.
           </p>
           <p>
-            I have a <a href="https://www.dinakablog.com/" target="_BLANK">blog</a> and <a href="https://www.youtube.com/channel/UCJYAfustyfdE7YyEHRC0rWw" target="_BLANK">YouTube channel</a>, where I post content on Open Source, Software Engineering, Web Development, Career Growth and Life as a Software Engineer. 
+            I have a{' '}
+            <a href="https://www.dinakablog.com/" target="_BLANK">
+              blog
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://www.youtube.com/channel/UCJYAfustyfdE7YyEHRC0rWw"
+              target="_BLANK"
+            >
+              YouTube channel
+            </a>
+            , where I post content on Open Source, Software Engineering, Web
+            Development, Career Growth and Life as a Software Engineer.
           </p>
         </div>
         <div className={styles.right}>
@@ -27,7 +55,7 @@ const About = () => {
             <span>JavaScript</span>
             <span>TypeScript</span>
             <span>React.js</span>
-            <span>NextJ.js</span>
+            <span>Next.js</span>
             <span>Material-UI</span>
             <span>TailwindCSS</span>
 
@@ -40,7 +68,7 @@ const About = () => {
             <p>Data Storage</p>
             <span>Redis</span>
             <span>MySQL</span>
-            <span>PostgresSQL</span>
+            <span>PostgreSQL</span>
             <span>MongoDB</span>
 
             <p>Tools/Platforms</p>
