@@ -7,7 +7,7 @@ const About = () => {
         <div className={styles.left}>
           <h2>ABOUT ME</h2>
           <p>
-            A Software Engineer with {2018 - new Date().getFullYear()} years of
+            A Software Engineer with {new Date().getFullYear() - 2018} years of
             professional experience. Able to take a project from design to product, using the best tools and architectures based on the application needs. Basic knowledge of project and people management, being a freelancer and having led the completion of two projects (an ERP and an e-learning system) from start to finish. Passionate about coding, open source and education. Confident,
             curious and adaptable.
           </p>
