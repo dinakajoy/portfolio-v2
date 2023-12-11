@@ -7,18 +7,12 @@ const About = () => {
         <div className={styles.left}>
           <h2>ABOUT ME</h2>
           <p>
-            A computer Science graduate and Software Engineer with +3 years of
-            professional experience, +3 years of JavaScript experience and 1
-            year of functional programming experience using OCaml. Able to take
-            a project from design to product, using the best tools and
-            architectures based on the application needs. Basic knowledge of
-            project and people management, having led the completion of two
-            projects (an ERP and an e-learning system) from start to finish.
-            Passionate about coding, open source and education. Confident,
+            A Software Engineer with {2018 - new Date().getFullYear()} years of
+            professional experience. Able to take a project from design to product, using the best tools and architectures based on the application needs. Basic knowledge of project and people management, being a freelancer and having led the completion of two projects (an ERP and an e-learning system) from start to finish. Passionate about coding, open source and education. Confident,
             curious and adaptable.
           </p>
           <p>
-            Currently a Software Engineer at AcceleratorApp, working with the
+            Currently a Software Engineer at <a href="https://www.acceleratorapp.co" target="_BLANK" no-follow referrerpolicy="no-referrer">AcceleratorApp</a>, working with the
             AcceleratorApp team to make the Startup industry more connected,
             efficient, transparent and fair. A platform that seamlessly connects
             accelerators, incubators and founders to automate, organize, track,
@@ -28,7 +22,7 @@ const About = () => {
             Calendar integration, Zapier integration, Learning Management
             System, Chat and more.
           </p>
-          <p>
+          {/* <p>
             I have a{' '}
             <a href="https://www.dinakablog.com/" target="_BLANK">
               blog
@@ -42,7 +36,7 @@ const About = () => {
             </a>
             , where I post content on Open Source, Software Engineering, Web
             Development, Career Growth and Life as a Software Engineer.
-          </p>
+          </p> */}
         </div>
         <div className={styles.right}>
           <div className={styles.tools}>

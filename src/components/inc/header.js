@@ -16,40 +16,38 @@ const Navbar = () => {
           <nav className="header-wrapper">
             <div className="header__brand">
               <Link href="/" activeClassName="active">
-                <a>
-                  <img src="/images/logo.png" alt="Odinaka Joy" />
-                </a>
+                <img src="/images/logo.png" alt="Odinaka Joy" />
               </Link>
             </div>
             <ul className="header__links">
               <li>
                 <ActiveLink href="/about" activeClassName="active">
-                  <a>ABOUT</a>
+                  <span>ABOUT</span>
                 </ActiveLink>
               </li>
               <li>
                 <ActiveLink href="/projects" activeClassName="active">
-                  <a>PROJECTS</a>
+                <span>PROJECTS</span>
                 </ActiveLink>
               </li>
               <li>
                 <ActiveLink href="/talks" activeClassName="active">
-                  <a>TALKS</a>
+                  <span>TALKS</span>
                 </ActiveLink>
               </li>
               <li>
-                <a href="https://www.dinakablog.com/" target="_blank">
-                  <a>BLOG</a>
+                <a href="https://dinakablog-fe-dinakajoy.vercel.app/" target="_blank">
+                  <span>BLOG</span>
                 </a>
               </li>
               <li>
                 <ActiveLink href="/contact" activeClassName="active">
-                  <a>CONTACT</a>
+                  <span>CONTACT</span>
                 </ActiveLink>
               </li>
               <li className="resume">
-                <Link href="/images/dinakajoy-cv.pdf">
-                  <a target="_BLANK">Resume</a>
+                <Link href="/images/dinakajoy-cv.pdf" target="_BLANK">
+                  Resume
                 </Link>
               </li>
             </ul>
@@ -61,9 +59,9 @@ const Navbar = () => {
         <nav className="header-wrapper">
           <div className="header__brand">
             <Link href="/">
-              <a>
+              <span>
                 <img src="/images/logo.png" alt="Odinaka Joy" />
-              </a>
+              </span>
             </Link>
           </div>
           <div id="myNav" className="overlay">
@@ -76,22 +74,22 @@ const Navbar = () => {
             </a>
             <div className="overlay-content">
               <ActiveLink href="/about" activeClassName="active">
-                <a>ABOUT</a>
+                <span>ABOUT</span>
               </ActiveLink>
               <ActiveLink href="/projects" activeClassName="active">
-                <a>PROJECTS</a>
+                <span>PROJECTS</span>
               </ActiveLink>
               <ActiveLink href="/talks" activeClassName="active">
-                <a>TALKS</a>
+                <span>TALKS</span>
               </ActiveLink>
-              <a href="https://www.dinakablog.com/" target="_blank">
+              <a href="https://dinakablog-fe-dinakajoy.vercel.app/" target="_blank">
                 BLOG
               </a>
               <ActiveLink href="/contact" activeClassName="active">
-                <a>CONTACT</a>
+                <span>CONTACT</span>
               </ActiveLink>
               <Link href="/images/dinakajoy-cv.pdf" className="resume">
-                <a target="_BLANK">Resume</a>
+                <span target="_BLANK">Resume</span>
               </Link>
             </div>
           </div>

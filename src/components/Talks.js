@@ -7,7 +7,7 @@ const Talks = () => {
     <section id="talks" className={styles.talks}>
       <div className="container">
         <div className={styles.talk}>
-          <p className={styles.big}>I am open to speak on topics related to web and technology in general and also building career in tech. As someone who has been through ups and downs in my tech journey, I can demystify these topics very well. Need pictures or my bio for a feature or speaker graphics? <Link href="/bio"><a>click here</a></Link>
+          <p className={styles.big}>I am open to speak on topics related to web and technology in general and also building career in tech. As someone who has been through ups and downs in my tech journey, I can demystify these topics very well. Need pictures or my bio for a feature or speaker graphics? <Link href="/bio">click here</Link>
           </p>
           <div className={styles.tk}>
             <div className={styles.img}><Image src="/images/talks/imo_state.jpg" alt="Introduction To Web Development" width={350} height={350} className={styles.tkimg} /></div>

@@ -100,19 +100,13 @@ const Home = () => {
             </motion.h2>
             <hr className="short" />
             <motion.p initial="hidden" animate="visible" variants={variants[2]}>
-              A computer Science graduate and Software Engineer with +3 years of
-              professional experience, +3 years of JavaScript experience and 1
-              year of functional programming experience using OCaml.{' '}
+              A Software Engineer close on half a decade of professional experience. I have got over 50 projects to showcase my skills in JavaScript, OCaml and Rust.
             </motion.p>
             <motion.p initial="hidden" animate="visible" variants={variants[2]}>
               Need pictures or my bio for a feature or speaker graphics?{' '}
-              <Link href="/bio">
-                <a>Click Here</a>
-              </Link>
+              <Link href="/bio">Click Here</Link>
             </motion.p>
-            <Link href="/contact">
-              <a className={styles.showcase__btn}>Get In Touch</a>
-            </Link>
+            <Link href="/contact" lassName={styles.showcase__btn}>Get In Touch</Link>
           </div>
           <div className={styles.showcase__img} ref={imgEl}>
             <div className={styles.showcase_slider}>
