@@ -17,4 +17,4 @@ Give credit to me
 * NextJS - To serve the web pages
 
 ## Link
-Access app via [Odinaka Joy](https://www.dinakajoy.com/)
+Access app via [Odinaka Joy](https://v2-dinakajoy.vercel.app)
